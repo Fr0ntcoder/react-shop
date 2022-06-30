@@ -1,3 +1,88 @@
+.card {
+    &-item {
+        display: flex;
+        flex-basis: 210px;
+        flex-shrink: 1;
+        flex-direction: column;
+        padding: 20px 35px;
+        border-radius: 40px;
+        border: 1px solid #F3F3F3;
+        overflow: hidden;
+        &__img {
+            width: 130px;
+            height: 120px;
+        }
+        &__sign {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            &-icon {
+                display: flex;
+                width: 32px;
+                height: 32px;
+                font-size: 18px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+                background: #FEF0F0;
+                color: #FF8585;
+            }
+        }
+        &__img {
+            position: relative;
+            padding-top: 20px;
+        }
+        &__title {
+            font-size: 14px;
+            margin: 15px 0;
+        }
+        &__bottom {
+            display: flex;
+            margin-top: auto;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__price {
+            &-title {
+                font-size: 11px;
+                text-transform: uppercase;
+                margin-bottom: 2px;
+                color: #BDBDBD;
+            }
+            &-text {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        &__add {
+            &-plus {
+                display: flex;
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #D3D3D3;
+                border-radius: 7px;
+                color: #D3D3D3;
+            }
+            &-check {
+                display: flex;
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid transparent;
+                border-radius: 7px;
+                color: #fff;
+                background: #89F09C;
+            }
+        }
+    }
+}
+
 .content {
     padding: 50px 0;
     &-title {
@@ -8,7 +93,7 @@
     }
     &-list {
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         justify-content: space-between;
     }
     &-item {

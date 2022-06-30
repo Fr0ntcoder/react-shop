@@ -4,7 +4,7 @@ import CartIcon from "../../assets/img/cart-icon.svg"
 import HeartIcon from "../../assets/img/heart-icon.svg"
 import UserIcon from "../../assets/img/user-icon.svg"
 import "../../components/Header/Header.scss"
-function Header() {
+function Header(props) {
   return (
     <header className="header">
         <div className="header-logo">
@@ -15,16 +15,16 @@ function Header() {
             </div>
         </div>
         <div className="header-info">
-            <a href="#" className="header-info__link">
-                <img src={CartIcon} alt="" /> 
+            <div className="header-info__link" onClick={props.onOpenCard}>
+                <img src={CartIcon} alt="" />
                 <span>1205 руб.</span>
-            </a>
-            <a href="#" className="header-info__link">
+            </div>
+            <div  className="header-info__link">
                 <img src={HeartIcon} alt="" /> 
-            </a>
-            <a href="#" className="header-info__link">
+            </div>
+            <div  className="header-info__link">
                 <img src={UserIcon} alt="" />
-            </a>
+            </div>
         </div>
     </header>
   )
