@@ -1,7 +1,7 @@
 import "./assets/css/reset.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import Orders from "./pages/Orders";
@@ -129,7 +129,7 @@ function App() {
         />
         <Header onOpenCard={() => setCartOpened(true)} />
         <Routes>
-          <HashRouter
+          <Route
             path="/"
             element={
               <Home
@@ -143,8 +143,8 @@ function App() {
             }
             exact
           />
-          <HashRouter path="/favorites" element={<Favorites />} />
-          <HashRouter path="/orders" element={<Orders />} />
+          <Route path="/favorites" element={<Favorites />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>
