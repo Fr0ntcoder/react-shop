@@ -9,26 +9,6 @@
   bottom: 0;
   justify-content: space-between;
   z-index: 5;
-  visibility: hidden;
-  &-block {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-  &-cart {
-    transform: translateX(100%);
-    transition: transform 0.2s ease;
-  }
-  &-visible {
-    visibility: visible;
-    & .drawer-block {
-      opacity: 1;
-      visibility: visible;
-    }
-    & .drawer-cart {
-      transform: translateX(0);
-    }
-  }
   &-close {
     display: flex;
     width: 32px;
