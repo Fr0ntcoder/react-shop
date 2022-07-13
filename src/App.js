@@ -130,7 +130,7 @@ function App() {
         <Header onOpenCard={() => setCartOpened(true)} />
         <Routes>
           <Route
-            path="/"
+            path=""
             element={
               <Home
                 searchValue={searchValue}
@@ -143,8 +143,8 @@ function App() {
             }
             exact
           />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/orders" element={<Orders />} />
+          <Route path="favorites" element={<Favorites />} />
+          <Route path="orders" element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>
