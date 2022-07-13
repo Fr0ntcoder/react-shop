@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-shop/static/css/main.2841432d.css",
+    "main.js": "/react-shop/static/js/main.199e8f86.js",
+    "static/media/cart-img9.png": "/react-shop/static/media/cart-img9.427777d5124c2848340b.png",
+    "static/media/cart-img8.png": "/react-shop/static/media/cart-img8.f868acd94a1ce56b8330.png",
+    "static/media/cart-img2.png": "/react-shop/static/media/cart-img2.6aa5627a9415adbb603f.png",
+    "static/media/logo.svg": "/react-shop/static/media/logo.4664185eea0d1bbcc1664ef4d62b459e.svg",
+    "static/media/cart-img12.png": "/react-shop/static/media/cart-img12.2bca2b28a60d87ea5f66.png",
+    "static/media/cart-img4.png": "/react-shop/static/media/cart-img4.5aad60ae52900b36c794.png",
+    "static/media/cart-img5.png": "/react-shop/static/media/cart-img5.266d70e2f3f13b7bd5be.png",
+    "static/media/cart-img6.png": "/react-shop/static/media/cart-img6.a2479305b07b599d3c2f.png",
+    "static/media/cart-img7.png": "/react-shop/static/media/cart-img7.8f6689ad41911d47d5a2.png",
+    "static/media/cart-img1.png": "/react-shop/static/media/cart-img1.aa1bad2336c6df29bdb6.png",
+    "static/media/cart-img3.png": "/react-shop/static/media/cart-img3.27a398a4c11854b4de85.png",
+    "static/media/cart-completed.jpg": "/react-shop/static/media/cart-completed.b997b2a143b197da5f98.jpg",
+    "static/media/cart-empty.jpg": "/react-shop/static/media/cart-empty.0366979184a44172f310.jpg",
+    "static/media/cart-img11.png": "/react-shop/static/media/cart-img11.d308728f2d8e816a7a7e.png",
+    "static/media/cart-img10.png": "/react-shop/static/media/cart-img10.aa5fa3ca1b72613cd8ef.png",
+    "static/media/heart-icon.svg": "/react-shop/static/media/heart-icon.09e7654efa38fcc63d2d4500e7865783.svg",
+    "static/media/user-icon.svg": "/react-shop/static/media/user-icon.a2d7f9ab11997e8c9f55a78cc4f3faf0.svg",
+    "static/media/cart-icon.svg": "/react-shop/static/media/cart-icon.088b5dd76eb5bb69be709caab7971260.svg",
+    "index.html": "/react-shop/index.html",
+    "main.2841432d.css.map": "/react-shop/static/css/main.2841432d.css.map",
+    "main.199e8f86.js.map": "/react-shop/static/js/main.199e8f86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2841432d.css",
+    "static/js/main.199e8f86.js"
+  ]
+}
